@@ -1,0 +1,208 @@
+<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
+<eagle version="7.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="QFP80P900X900X120-32N">
+<wire x1="-3.55" y1="3.3" x2="-3.55" y2="3.55" width="0.127" layer="21"/>
+<wire x1="-3.55" y1="3.55" x2="-3.3" y2="3.55" width="0.127" layer="21"/>
+<wire x1="3.3" y1="3.55" x2="3.55" y2="3.55" width="0.127" layer="21"/>
+<wire x1="3.55" y1="3.55" x2="3.55" y2="3.3" width="0.127" layer="21"/>
+<wire x1="3.55" y1="-3.3" x2="3.55" y2="-3.55" width="0.127" layer="21"/>
+<wire x1="3.55" y1="-3.55" x2="3.3" y2="-3.55" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="-3.55" x2="-3.55" y2="-3.55" width="0.127" layer="21"/>
+<wire x1="-3.55" y1="-3.55" x2="-3.55" y2="-3.3" width="0.127" layer="21"/>
+<circle x="-4.4" y="3.6" radius="0.12" width="0.24" layer="21"/>
+<wire x1="-3.55" y1="3.55" x2="3.55" y2="3.55" width="0.127" layer="51"/>
+<wire x1="3.55" y1="3.55" x2="3.55" y2="-3.55" width="0.127" layer="51"/>
+<wire x1="3.55" y1="-3.55" x2="-3.55" y2="-3.55" width="0.127" layer="51"/>
+<wire x1="-3.55" y1="-3.55" x2="-3.55" y2="3.55" width="0.127" layer="51"/>
+<wire x1="-5.23" y1="5.23" x2="5.23" y2="5.23" width="0.05" layer="39"/>
+<wire x1="5.23" y1="5.23" x2="5.23" y2="-5.23" width="0.05" layer="39"/>
+<wire x1="5.23" y1="-5.23" x2="-5.23" y2="-5.23" width="0.05" layer="39"/>
+<wire x1="-5.23" y1="-5.23" x2="-5.23" y2="5.23" width="0.05" layer="39"/>
+<text x="-4.46112" y="5.73573" size="1.27461" layer="25">&gt;NAME</text>
+<text x="-4.45955" y="-7.00787" size="1.27416" layer="27">&gt;VALUE</text>
+<circle x="-4.4" y="3.6" radius="0.12" width="0.24" layer="51"/>
+<smd name="1" x="-4.18" y="2.8" dx="1.6" dy="0.55" layer="1" roundness="50"/>
+<smd name="2" x="-4.18" y="2" dx="1.6" dy="0.55" layer="1" roundness="50"/>
+<smd name="3" x="-4.18" y="1.2" dx="1.6" dy="0.55" layer="1" roundness="50"/>
+<smd name="4" x="-4.18" y="0.4" dx="1.6" dy="0.55" layer="1" roundness="50"/>
+<smd name="5" x="-4.18" y="-0.4" dx="1.6" dy="0.55" layer="1" roundness="50"/>
+<smd name="6" x="-4.18" y="-1.2" dx="1.6" dy="0.55" layer="1" roundness="50"/>
+<smd name="7" x="-4.18" y="-2" dx="1.6" dy="0.55" layer="1" roundness="50"/>
+<smd name="8" x="-4.18" y="-2.8" dx="1.6" dy="0.55" layer="1" roundness="50"/>
+<smd name="9" x="-2.8" y="-4.18" dx="1.6" dy="0.55" layer="1" roundness="50" rot="R90"/>
+<smd name="10" x="-2" y="-4.18" dx="1.6" dy="0.55" layer="1" roundness="50" rot="R90"/>
+<smd name="11" x="-1.2" y="-4.18" dx="1.6" dy="0.55" layer="1" roundness="50" rot="R90"/>
+<smd name="12" x="-0.4" y="-4.18" dx="1.6" dy="0.55" layer="1" roundness="50" rot="R90"/>
+<smd name="13" x="0.4" y="-4.18" dx="1.6" dy="0.55" layer="1" roundness="50" rot="R90"/>
+<smd name="14" x="1.2" y="-4.18" dx="1.6" dy="0.55" layer="1" roundness="50" rot="R90"/>
+<smd name="15" x="2" y="-4.18" dx="1.6" dy="0.55" layer="1" roundness="50" rot="R90"/>
+<smd name="16" x="2.8" y="-4.18" dx="1.6" dy="0.55" layer="1" roundness="50" rot="R90"/>
+<smd name="17" x="4.18" y="-2.8" dx="1.6" dy="0.55" layer="1" roundness="50" rot="R180"/>
+<smd name="18" x="4.18" y="-2" dx="1.6" dy="0.55" layer="1" roundness="50" rot="R180"/>
+<smd name="19" x="4.18" y="-1.2" dx="1.6" dy="0.55" layer="1" roundness="50" rot="R180"/>
+<smd name="20" x="4.18" y="-0.4" dx="1.6" dy="0.55" layer="1" roundness="50" rot="R180"/>
+<smd name="21" x="4.18" y="0.4" dx="1.6" dy="0.55" layer="1" roundness="50" rot="R180"/>
+<smd name="22" x="4.18" y="1.2" dx="1.6" dy="0.55" layer="1" roundness="50" rot="R180"/>
+<smd name="23" x="4.18" y="2" dx="1.6" dy="0.55" layer="1" roundness="50" rot="R180"/>
+<smd name="24" x="4.18" y="2.8" dx="1.6" dy="0.55" layer="1" roundness="50" rot="R180"/>
+<smd name="25" x="2.8" y="4.18" dx="1.6" dy="0.55" layer="1" roundness="50" rot="R270"/>
+<smd name="26" x="2" y="4.18" dx="1.6" dy="0.55" layer="1" roundness="50" rot="R270"/>
+<smd name="27" x="1.2" y="4.18" dx="1.6" dy="0.55" layer="1" roundness="50" rot="R270"/>
+<smd name="28" x="0.4" y="4.18" dx="1.6" dy="0.55" layer="1" roundness="50" rot="R270"/>
+<smd name="29" x="-0.4" y="4.18" dx="1.6" dy="0.55" layer="1" roundness="50" rot="R270"/>
+<smd name="30" x="-1.2" y="4.18" dx="1.6" dy="0.55" layer="1" roundness="50" rot="R270"/>
+<smd name="31" x="-2" y="4.18" dx="1.6" dy="0.55" layer="1" roundness="50" rot="R270"/>
+<smd name="32" x="-2.8" y="4.18" dx="1.6" dy="0.55" layer="1" roundness="50" rot="R270"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ATSAMD21E17A-AUT">
+<wire x1="-63.5" y1="45.72" x2="63.5" y2="45.72" width="0.254" layer="94"/>
+<wire x1="63.5" y1="45.72" x2="63.5" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="63.5" y1="-43.18" x2="-63.5" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="-63.5" y1="-43.18" x2="-63.5" y2="45.72" width="0.254" layer="94"/>
+<text x="-63.5" y="46.355" size="1.778" layer="95">&gt;NAME</text>
+<text x="-63.5" y="-45.72" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="PA00/VDDANA/EXTINT[0]/SERCOM1/PAD[0]/TCC2/WO[0]" x="-68.58" y="27.94" length="middle"/>
+<pin name="PA01/VDDANA/EXTINT[1]/SERCOM1/PAD[1]/TCC2/WO[1]" x="-68.58" y="25.4" length="middle"/>
+<pin name="PA02/VDDANA/EXTINT[2]/AIN[0]/Y[0]/VOUT" x="-68.58" y="22.86" length="middle"/>
+<pin name="PA03/VDDANA/EXTINT[3]/ADC/VREFADAC/VREFA/AIN[1]/Y[1]" x="-68.58" y="20.32" length="middle"/>
+<pin name="PA04/VDDANA/EXTINT[4]/ADC/VREFB/AIN[4]/AIN[0]/Y[2]/SERCOM0/PAD[0]/TCC0/WO[0]" x="-68.58" y="17.78" length="middle"/>
+<pin name="PA05/VDDANA/EXTINT[5]/AIN[5]/AIN[1]/Y[3]/SERCOM0/PAD[1]/TCC0/WO[1]" x="-68.58" y="15.24" length="middle"/>
+<pin name="PA06/VDDANA/EXTINT[6]/AIN[6]/AIN[2]/Y[4]/SERCOM0/PAD[2]/TCC1/WO[0]" x="-68.58" y="12.7" length="middle"/>
+<pin name="PA07/VDDANA/EXTINT[7]/AIN[7]/AIN[3]/Y[5]/SERCOM0/PAD[3]/TCC1/WO[1]/I2S/SD[0]" x="-68.58" y="10.16" length="middle"/>
+<pin name="PA08/VDDIO/NMI/AIN[16]/X[0]/SERCOM0/PAD[0]/SERCOM2/PAD[0]/TCC0/WO[0]/TCC1/WO[2]/I2S/SD[1]" x="-68.58" y="7.62" length="middle"/>
+<pin name="PA09/VDDIO/EXTINT[9]/AIN[17]/X[1]/SERCOM0/PAD[1]/SERCOM2/PAD[1]/TCC0/WO[1]/TCC1/WO[3]/I2S/MCK[0]" x="-68.58" y="5.08" length="middle"/>
+<pin name="PA10/VDDIO/EXTINT[10]/AIN[18]/X[2]/SERCOM0/PAD[2]/SERCOM2/PAD[2]/TCC1/WO[0]/TCC0/WO[2]/I2S/SCK[0]/GCLK_IO[4]" x="-68.58" y="2.54" length="middle"/>
+<pin name="PA11/VDDIO/EXTINT[11]/AIN[19]/X[3]/SERCOM0/PAD[3]/SERCOM2/PAD[3]/TCC1/WO[1]/TCC0/WO[3]/I2S/FS[0]/GCLK_IO[5]" x="-68.58" y="0" length="middle"/>
+<pin name="PA14/VDDIO/EXTINT[14]/SERCOM2/PAD[2]/SERCOM4/PAD[2]/TC3/WO[0]/TCC0/WO[4]/GCLK_IO[0]" x="-68.58" y="-2.54" length="middle"/>
+<pin name="PA15/VDDIO/EXTINT[15]/SERCOM2/PAD[3]/SERCOM4/PAD[3]/TC3/WO[1]/TCC0/WO[5]/GCLK_IO[1]" x="-68.58" y="-5.08" length="middle"/>
+<pin name="PA16/VDDIO/EXTINT[0]/X[4]/SERCOM1/PAD[0]/SERCOM3/PAD[0]/TCC2/WO[0]/TCC0/WO[6]/GCLK_IO[2]" x="-68.58" y="-7.62" length="middle"/>
+<pin name="PA17/VDDIO/EXTINT[1]/X[5]/SERCOM1/PAD[1]/SERCOM3/PAD[1]/TCC2/WO[1]/TCC0/WO[7]/GCLK_IO[3]" x="-68.58" y="-10.16" length="middle"/>
+<pin name="PA18/VDDIO/EXTINT[2]/X[6]/SERCOM1/PAD[2]/SERCOM3/PAD[2]/TC3/WO[0]/TCC0/WO[2]/AC/CMP[0]" x="-68.58" y="-12.7" length="middle"/>
+<pin name="PA19/VDDIO/EXTINT[3]/X[7]/SERCOM1/PAD[3]/SERCOM3/PAD[3]/TC3/WO[1]/TCC0/WO[3]/I2S/SD[0]/AC/CMP[1]" x="-68.58" y="-15.24" length="middle"/>
+<pin name="PA22/VDDIO/EXTINT[6]/X[10]/SERCOM3/PAD[0]/SERCOM5/PAD[0]/TC4/WO[0]/TCC0/WO[4]/GCLK_IO[6]" x="-68.58" y="-17.78" length="middle"/>
+<pin name="PA23/VDDIO/EXTINT[7]/X[11]/SERCOM3/PAD[1]/SERCOM5/PAD[1]/TC4/WO[1]/TCC0/WO[5]/USB/SOF1KHZ/GCLK_IO[7]" x="-68.58" y="-20.32" length="middle"/>
+<pin name="PA24/VDDIO/EXTINT[12]/SERCOM3/PAD[2]/SERCOM5/PAD[2]/TC5/WO[0]/TCC1/WO[2]/USB/DM" x="-68.58" y="-22.86" length="middle"/>
+<pin name="PA25/VDDIO/EXTINT[13]/SERCOM3/PAD[3]/SERCOM5/PAD[3]/TC5/WO[1]/TCC1/WO[3]/USB/DP" x="-68.58" y="-25.4" length="middle"/>
+<pin name="PA27/VDDIO/EXTINT[15]/GCLK_IO[0]" x="-68.58" y="-27.94" length="middle"/>
+<pin name="PA28/VDDIO/EXTINT[8]/GCLK_IO[0]" x="-68.58" y="-30.48" length="middle"/>
+<pin name="PA30/VDDIO/EXTINT[10]/SERCOM1/PAD[2]/TCC1/WO[0]/SWCLK/GCLK_IO[0]" x="-68.58" y="-33.02" length="middle"/>
+<pin name="PA31/VDDIO/EXTINT[11]/SERCOM1/PAD[3]/TCC1/WO[1]/SWDIO" x="-68.58" y="-35.56" length="middle"/>
+<pin name="VDDANA" x="68.58" y="40.64" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="68.58" y="-40.64" length="middle" direction="pwr" rot="R180"/>
+<pin name="!RESET" x="-68.58" y="33.02" length="middle" direction="in"/>
+<pin name="VDDCORE" x="68.58" y="43.18" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDDIN" x="68.58" y="38.1" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ATSAMD21E17A-AUT" prefix="U">
+<description>Cortex-M0+, 128KB FLASH, 16KB SRAM, USB, DMA - 32TQFP IND TEMP, GREEN, 1.6-3.6V, 48MHz/ TQFP (A) </description>
+<gates>
+<gate name="G$1" symbol="ATSAMD21E17A-AUT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFP80P900X900X120-32N">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="26"/>
+<connect gate="G$1" pin="GND" pad="10 28"/>
+<connect gate="G$1" pin="PA00/VDDANA/EXTINT[0]/SERCOM1/PAD[0]/TCC2/WO[0]" pad="1"/>
+<connect gate="G$1" pin="PA01/VDDANA/EXTINT[1]/SERCOM1/PAD[1]/TCC2/WO[1]" pad="2"/>
+<connect gate="G$1" pin="PA02/VDDANA/EXTINT[2]/AIN[0]/Y[0]/VOUT" pad="3"/>
+<connect gate="G$1" pin="PA03/VDDANA/EXTINT[3]/ADC/VREFADAC/VREFA/AIN[1]/Y[1]" pad="4"/>
+<connect gate="G$1" pin="PA04/VDDANA/EXTINT[4]/ADC/VREFB/AIN[4]/AIN[0]/Y[2]/SERCOM0/PAD[0]/TCC0/WO[0]" pad="5"/>
+<connect gate="G$1" pin="PA05/VDDANA/EXTINT[5]/AIN[5]/AIN[1]/Y[3]/SERCOM0/PAD[1]/TCC0/WO[1]" pad="6"/>
+<connect gate="G$1" pin="PA06/VDDANA/EXTINT[6]/AIN[6]/AIN[2]/Y[4]/SERCOM0/PAD[2]/TCC1/WO[0]" pad="7"/>
+<connect gate="G$1" pin="PA07/VDDANA/EXTINT[7]/AIN[7]/AIN[3]/Y[5]/SERCOM0/PAD[3]/TCC1/WO[1]/I2S/SD[0]" pad="8"/>
+<connect gate="G$1" pin="PA08/VDDIO/NMI/AIN[16]/X[0]/SERCOM0/PAD[0]/SERCOM2/PAD[0]/TCC0/WO[0]/TCC1/WO[2]/I2S/SD[1]" pad="11"/>
+<connect gate="G$1" pin="PA09/VDDIO/EXTINT[9]/AIN[17]/X[1]/SERCOM0/PAD[1]/SERCOM2/PAD[1]/TCC0/WO[1]/TCC1/WO[3]/I2S/MCK[0]" pad="12"/>
+<connect gate="G$1" pin="PA10/VDDIO/EXTINT[10]/AIN[18]/X[2]/SERCOM0/PAD[2]/SERCOM2/PAD[2]/TCC1/WO[0]/TCC0/WO[2]/I2S/SCK[0]/GCLK_IO[4]" pad="13"/>
+<connect gate="G$1" pin="PA11/VDDIO/EXTINT[11]/AIN[19]/X[3]/SERCOM0/PAD[3]/SERCOM2/PAD[3]/TCC1/WO[1]/TCC0/WO[3]/I2S/FS[0]/GCLK_IO[5]" pad="14"/>
+<connect gate="G$1" pin="PA14/VDDIO/EXTINT[14]/SERCOM2/PAD[2]/SERCOM4/PAD[2]/TC3/WO[0]/TCC0/WO[4]/GCLK_IO[0]" pad="15"/>
+<connect gate="G$1" pin="PA15/VDDIO/EXTINT[15]/SERCOM2/PAD[3]/SERCOM4/PAD[3]/TC3/WO[1]/TCC0/WO[5]/GCLK_IO[1]" pad="16"/>
+<connect gate="G$1" pin="PA16/VDDIO/EXTINT[0]/X[4]/SERCOM1/PAD[0]/SERCOM3/PAD[0]/TCC2/WO[0]/TCC0/WO[6]/GCLK_IO[2]" pad="17"/>
+<connect gate="G$1" pin="PA17/VDDIO/EXTINT[1]/X[5]/SERCOM1/PAD[1]/SERCOM3/PAD[1]/TCC2/WO[1]/TCC0/WO[7]/GCLK_IO[3]" pad="18"/>
+<connect gate="G$1" pin="PA18/VDDIO/EXTINT[2]/X[6]/SERCOM1/PAD[2]/SERCOM3/PAD[2]/TC3/WO[0]/TCC0/WO[2]/AC/CMP[0]" pad="19"/>
+<connect gate="G$1" pin="PA19/VDDIO/EXTINT[3]/X[7]/SERCOM1/PAD[3]/SERCOM3/PAD[3]/TC3/WO[1]/TCC0/WO[3]/I2S/SD[0]/AC/CMP[1]" pad="20"/>
+<connect gate="G$1" pin="PA22/VDDIO/EXTINT[6]/X[10]/SERCOM3/PAD[0]/SERCOM5/PAD[0]/TC4/WO[0]/TCC0/WO[4]/GCLK_IO[6]" pad="21"/>
+<connect gate="G$1" pin="PA23/VDDIO/EXTINT[7]/X[11]/SERCOM3/PAD[1]/SERCOM5/PAD[1]/TC4/WO[1]/TCC0/WO[5]/USB/SOF1KHZ/GCLK_IO[7]" pad="22"/>
+<connect gate="G$1" pin="PA24/VDDIO/EXTINT[12]/SERCOM3/PAD[2]/SERCOM5/PAD[2]/TC5/WO[0]/TCC1/WO[2]/USB/DM" pad="23"/>
+<connect gate="G$1" pin="PA25/VDDIO/EXTINT[13]/SERCOM3/PAD[3]/SERCOM5/PAD[3]/TC5/WO[1]/TCC1/WO[3]/USB/DP" pad="24"/>
+<connect gate="G$1" pin="PA27/VDDIO/EXTINT[15]/GCLK_IO[0]" pad="25"/>
+<connect gate="G$1" pin="PA28/VDDIO/EXTINT[8]/GCLK_IO[0]" pad="27"/>
+<connect gate="G$1" pin="PA30/VDDIO/EXTINT[10]/SERCOM1/PAD[2]/TCC1/WO[0]/SWCLK/GCLK_IO[0]" pad="31"/>
+<connect gate="G$1" pin="PA31/VDDIO/EXTINT[11]/SERCOM1/PAD[3]/TCC1/WO[1]/SWDIO" pad="32"/>
+<connect gate="G$1" pin="VDDANA" pad="9"/>
+<connect gate="G$1" pin="VDDCORE" pad="29"/>
+<connect gate="G$1" pin="VDDIN" pad="30"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="STANDARD" value="IPC-7351B"/>
+<attribute name="MANUFACTURER" value="Microchip"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
